@@ -10,4 +10,12 @@ const App = () => {
   );
 };
 
+App.options = {
+  topBar: {
+    title: {
+      text: 'SLATE'
+    }
+  }
+}
+
 export default App;

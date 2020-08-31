@@ -1,9 +1,9 @@
 import React from 'react';
-import HeaderComponent from '../components/Header';
+import { Text } from 'react-native-elements';
 
 const HomeScreen = () => {
     return (
-        <HeaderComponent />
+        <Text h1>Heading 1</Text>
     );
 };
 
