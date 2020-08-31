@@ -28,5 +28,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: app-armeabi-v7a-debug.apk
-          path: android/app/build/outputs/apk/debug/app-armeabi-v7a-debug.apk
+          name: slate-debug.zip
+          path: android/app/build/outputs/apk/debug/
