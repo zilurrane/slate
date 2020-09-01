@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native-elements';
 
-const LiveScreen = () => {
+const CourseScreen = () => {
     return (
-        <Text h1>Live SLATE</Text>
+        <Text h1>Course SLATE</Text>
     );
 };
 
-export default LiveScreen;
+export default CourseScreen;

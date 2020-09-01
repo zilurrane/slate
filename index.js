@@ -23,7 +23,7 @@ Navigation.events().registerAppLaunchedListener(() => {
                 children: [
                     {
                         stack: {
-                            id: 'HOME_TAB',
+                            id: 'LIVE_TAB',
                             children: [
                                 {
                                     component: {
@@ -41,15 +41,15 @@ Navigation.events().registerAppLaunchedListener(() => {
                     },
                     {
                         stack: {
-                            id: 'PROFILE_TAB',
+                            id: 'COURSE_TAB',
                             children: [
                                 {
                                     component: {
-                                        id: 'com.slate.live',
-                                        name: 'com.slate.live',
+                                        id: 'com.slate.course',
+                                        name: 'com.slate.course',
                                         options: {
                                             bottomTab: {
-                                                text: 'Tab 2'
+                                                text: 'Courses'
                                             }
                                         }
                                     }
