@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native-elements';
 
-const HomeScreen = () => {
+const LiveScreen = () => {
     return (
         <Text h1>Heading 1</Text>
     );
 };
 
-export default HomeScreen;
+export default LiveScreen;
