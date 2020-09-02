@@ -1,9 +1,14 @@
 import React from 'react';
-import { Text } from 'react-native-elements';
+
+import { Text } from 'react-native'
+import { Card } from 'react-native-elements'
+
 
 const LiveScreen = () => {
     return (
-        <Text h1>Live SLATE</Text>
+        <Card containerStyle={{ backgroundColor: '#EEE', margin: 0, height: 200 }}>
+            <Text>WebRTC</Text>
+        </Card>
     );
 };
 
